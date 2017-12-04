@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!---->
+    <!--app:popupTheme="@style/AppTheme.PopupOverlay"-->
+    <!--app:titleTextColor="@color/colorPrimary" />-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/myToolBar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="@dimen/button_padding">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/locatedAddressName"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello"-->
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"-->
+    <!--android:textColor="@color/white" />-->
+
+    <!--</LinearLayout>-->
+
+
+    <TextView
+        android:id="@+id/useThisLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/use_this_location"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/useThisLocation" />
+</RelativeLayout>

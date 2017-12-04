@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_corners">5dp</dimen>
+    <dimen name="button_strock_size">2dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="editText_padding">8dp</dimen>
+    <dimen name="edit_text_top_margin">5dp</dimen>
+    <dimen name="edit_text_bottom_margin">5dp</dimen>
+    <dimen name="parent_padding">20dp</dimen>
+    <dimen name="home_item_hight">15dp</dimen>
+    <dimen name="navigation_icon_image_size">35dp</dimen>
+    <dimen name="navigation_header_height">160dp</dimen>
+    <dimen name="navigation_header_image_size">70dp</dimen>
+    <dimen name="toolbar_padding">10dp</dimen>
+    <dimen name="home_item_padding_ltr">20dp</dimen>
+</resources>
